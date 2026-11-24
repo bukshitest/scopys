@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-11-23T08:32:54Z",
+  "updated_at_utc": "2026-11-24T10:41:32Z",
   "rows": 1490,
   "unique_issn": 297,
   "matched_publication_year_metrics": 1222,
@@ -12,7 +12,8 @@
   },
   "serial_api_sources": {
     "cache": 295,
-    "HTTP 404": 2
+    "HTTP 404": 1,
+    "HTTP 503": 1
   },
   "serial_cache_days": 7,
   "author_metrics": {
@@ -23,6 +24,7 @@
     "api_blocked_or_not_entitled": true,
     "sources": {
       "cache_missing": 3630,
+      "HTTP 503": 3,
       "HTTP 401": 1
     }
   },
